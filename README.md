@@ -2,6 +2,7 @@
 *Implementation of traversal techniques to navigate a directed graph.*
 
 COP3530: Data Structures
+
 Assignment #7 
 
 **Assignment Overview:**
