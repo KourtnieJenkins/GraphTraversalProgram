@@ -28,11 +28,12 @@ credit for a program written in Java);
 and -25 for using global variables in your header file.
 
 I will run the program on Osprey using gcc :
+```
 $ gcc *.c
 $ ./a.out myfile
 (note this is NOT redirection and it is MY choice as to the name of the 
 data file, so use must program for a command line file name.) 
-
+```
   
 myfile will consist of the vertices (single letters) for a directed, 
 unweighted graph.
@@ -66,7 +67,7 @@ NOT a 2x2 array.
 
 Here are some structures that you might consider in your header file (for
 adjacency lists):
-
+```
 /* Forward declaration */
 struct EDGETAG;
 
@@ -84,11 +85,11 @@ typedef struct EDGETAG
     VERTEX* v;
     struct EDGETAG* q;
 } EDGE;
-
+```
 
 
 and then to test:
-
+```
 int main(int argc, const char *argv[])
 {
     EDGE* e = (EDGE*)malloc(sizeof(EDGE));
@@ -106,5 +107,5 @@ int main(int argc, const char *argv[])
 
     printf("%c -> %c\n", a->c, a->p->v->c);
     return 0;
-}
+}```
 
