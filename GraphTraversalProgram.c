@@ -1,10 +1,9 @@
 /* 
- * File:   n01072341.c
+ * File:   GraphTraversalProgram.c
  * Author: Kourtnie Jenkins
  *
  * Created on November 14, 2017, 9:41 AM
  * 
-
  */
 
 #include "myheader.h"
