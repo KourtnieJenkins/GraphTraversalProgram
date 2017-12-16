@@ -1,5 +1,5 @@
 # GraphTraversalProgram
-*Implementation of traversal techniques to navigate a directed graph.*
+*Uses C to implement traversal techniques to navigate a directed graph.*
 
 COP3530: Data Structures
 Assignment #7 
